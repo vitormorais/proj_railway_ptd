@@ -16,6 +16,8 @@ There are two options:
 ### System Requirements
 *   MATLAB version 9.4 (R2018a) or later
 *   (older versions might not be compatible with the GUI)
+*   Statistics toolbox
+*   Parallelism toolbox
 
 ------------
 ### Instalation
