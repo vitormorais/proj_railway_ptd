@@ -32,9 +32,30 @@ The simplest way to run the framework is to use the GUI.
 2. Open the file **GUI_montecarlo.mlapp**
 3. This GUI is the main handler for the **MONTE_CARLO.m** and **electric_model.m** classes.
 
+Alternativelly, the **electric_model.m** class can be used as following:
+
+    electric_model = electric_model;  %%% creates a new object
+    electric_model = electric_model.set_random_status('default');
+    electric_model = electric_model.update_electric_model_parameters('default');
+    electric_model = electric_model.reset_model();
+    electric_model = electric_model.generate_random_trains();
+    electric_model = electric_model.run_powerflow();
+    electric_model = electric_model.process_output();
+    electric_model = electric_model.attach_power_transfer_device();
+    electric_model = electric_model.tps_power_optimization();
+
 ------------
 ### Documentation and Manuals
 Under construction
+
+### Dependencies
+This toolbox depends on the following third-party tools
+*   **MATPOWER**: Free, open-source tools for electric power system simulation and optimization 
+https://matpower.org/
+*   **ParforProgressbar**: PARFOR progress monitor (progress bar) v4 
+https://www.mathworks.com/matlabcentral/fileexchange/71436-parfor-progress-monitor-progress-bar-v4
+*   **PARFOR_PROGRESS**: Progress monitor (progress bar) that works with parfor
+https://www.mathworks.com/matlabcentral/fileexchange/32101-progress-monitor-progress-bar-that-works-with-parfor
 
 ### Citing framework
 All publications derived from the use of this framework, or the included data
