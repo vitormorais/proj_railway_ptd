@@ -60,7 +60,7 @@ https://www.mathworks.com/matlabcentral/fileexchange/32101-progress-monitor-prog
 ### Citing framework
 All publications derived from the use of this framework, or the included data
 files, should cite:
->   Morais, V. A.; and MArtins, A. P. (2021) "Traction Power Substation Balance and Losses Estimation in AC Railways
+>   Morais, V. A.; and Martins, A. P. (2021) "Traction Power Substation Balance and Losses Estimation in AC Railways
     using a Power Transfer Device through Monte Carlo Analysis". In Railway Engineering Science (261) 
-    doi: [10.1109/TPWRS.2010.2051168][13]
+    doi: [10.1007/s40534-021-00261-y][https://doi.org/10.1007/s40534-021-00261-y]
 
